@@ -33,6 +33,7 @@ function me:moving()
 end
 
 function me:get_fast_item_slot(slot)
+	-- windower.add_to_chat("slot: " .. slot)
 	if me.fast_item ~= nil then
 		if slot == 4 then
 			return 'head'
